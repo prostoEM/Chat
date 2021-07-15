@@ -10,6 +10,7 @@
     width: 80%;
     height: 70vh;
     overflow-y: auto;
+    flex-grow: 2;
 }
 .form{
   margin-top: 10px;  

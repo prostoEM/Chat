@@ -10,6 +10,7 @@ const Navbar = () => {
     const [user] = useAuthState(auth)
     return (
         <div className = {classes.nav}>
+            <div><a href="" className={classes.log}>Разработал <span className={classes.log__name}>PROSTO_EM</span></a></div>
             {user ?
             <button onClick = {() => auth.signOut()} className = {classes.button}>выйти</button>
             :

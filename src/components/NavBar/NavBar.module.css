@@ -3,7 +3,8 @@
     height: 60px;
     background-color: black;
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
+    align-items: center;
 
 }
 
@@ -25,4 +26,16 @@
 .button:active {
         background: rgb(33,147,90);
         box-shadow: 0 3px rgb(33,147,90) inset;
+}
+
+.log{   
+        margin-left: 20px;
+        color: white;
+        text-decoration:none;
+
+}
+
+.log__name{
+        font-weight: bold;
+        font-size: 30px;
 }
